@@ -1,0 +1,211 @@
+/*CSS 樣式重置*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500;1,700;1,900&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	font-size: 24px;
+	font-style: italic;
+
+}
+
+.pb-_5 {
+	padding-bottom: 4px;
+}
+
+.pb-1{
+	padding-bottom: 8px;
+}
+
+.pb-2 {
+	padding-bottom: 16px;
+}
+
+.pr-2 {
+	padding-right: 16px;
+}
+
+.pr-3 {
+	padding-right: 24px;
+}
+
+.mb-5 {
+	margin-bottom: 40px;
+}
+
+.banner {
+	background: url(../images/banner.png) no-repeat center center;
+	background-size: cover;
+}
+
+.intro {
+	margin: 0 auto;
+	width: 310px;
+	padding: 308px 0;
+}
+
+
+.intro-Content {
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 40px;
+
+}
+
+.intro h1 span {
+	font-size: 80px;
+	font-weight: 900;
+	padding-bottom: 32px;
+}
+
+.intro-SocialLink {
+	display: flex;
+	justify-content: space-between;
+}
+
+.intro-SocialLink a:hover {
+	-webkit-filter:brightness(.8);
+	transition: .5s;
+}
+
+.about {
+	margin: 0 auto;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 56px;
+}
+
+.about-Intro,.about-Career {
+	width: 384px;
+	margin: 0 auto;
+}
+.subTitle {
+	font-weight: 500;
+	text-align: center;
+	font-size: 64px;
+	padding-top: 56px;
+}
+
+
+.about-Content {
+	padding-bottom: 24px;
+	padding-top: 20px;
+}
+
+.about-Career li::before {
+	content: "• ";
+	color: #891818;
+	/* font-size:50px; */
+    vertical-align:middle;
+  }
+
+.about-Career ul li {
+	padding-top: 28px;
+}
+
+.brand {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.brand-Content {
+	margin: 0 auto;
+	padding-top: 68px;
+	padding-bottom: 160px;
+}
+
+.brand-Intro-Text {
+	font-style: normal;
+	padding-top: 32px;
+	font-size: 20px;
+}
+
+.brand-Content-Images {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-right: 24px;
+}
+
+.other p, .other h3 {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.other span {
+	font-style: normal;
+}
+
+.other-Intro-Text {
+	padding-top: 16px;
+	padding-bottom: 56px;
+}
+
+.other-Images {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 144px;
+}
+
+.other-Images h3 {
+	padding-top: 16px;
+	padding-bottom: 48px;
+}
+
+.footer {
+	color: #fff;
+	background: #000;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 64px;
+}
