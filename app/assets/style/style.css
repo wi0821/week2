@@ -47,7 +47,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500;1,700;1,900&display=swap');
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', 'PingFang TC', 'Microsoft Jenghei', sans-serif;
 	line-height: 1.5;
 	font-size: 24px;
 	font-style: italic;
